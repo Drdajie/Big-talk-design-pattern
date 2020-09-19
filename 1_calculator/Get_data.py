@@ -1,5 +1,5 @@
 class GetDate:
     def __init__(self,parameterA,operator,parameterB):
-        self.parameterA = parameterA
+        self.parameterA = float(parameterA)
         self.operator = operator
-        self.parameterB = parameterB
+        self.parameterB = float(parameterB)
